@@ -1,0 +1,19 @@
+name: "fmtcheck"
+description: "Enforce consistent formatting across your CI pipeline."
+author: "libnudget"
+branding:
+  icon: "check"
+  color: "green"
+
+inputs:
+  path:
+    description: "Directory to check."
+    required: false
+    default: "."
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - "--path"
+    - ${{ inputs.path }}
