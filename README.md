@@ -1,5 +1,7 @@
 # fmtcheck
 
+[![Release](https://img.shields.io/github/v/release/libnudget/fmtcheck?logo=github&label=latest)](https://github.com/libnudget/fmtcheck/releases)
+
 A GitHub Action that enforces consistent formatting across your CI
 pipeline.
 
@@ -10,13 +12,13 @@ the machine settles them in CI.
 ## Usage
 
 ```yaml
-- uses: libnudget/fmtcheck@v0.1.0
+- uses: libnudget/fmtcheck@main
 ```
 
 Checks the repository root. To check a subdirectory:
 
 ```yaml
-- uses: libnudget/fmtcheck@v0.1.0
+- uses: libnudget/fmtcheck@main
   with:
     path: src
 ```
