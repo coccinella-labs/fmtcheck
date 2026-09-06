@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Coccinella-Labs/fmtcheck/main/.github/assets/thumbnail.png" alt="fmtcheck" width="100%">
+</p>
+
 # fmtcheck
 
 [![Release](https://img.shields.io/github/v/release/libnudget/fmtcheck?logo=github&label=latest)](https://github.com/libnudget/fmtcheck/releases)
