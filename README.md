@@ -4,7 +4,7 @@
 
 # fmtcheck
 
-[![Release](https://img.shields.io/github/v/release/libnudget/fmtcheck?logo=github&label=latest)](https://github.com/libnudget/fmtcheck/releases)
+[![Release](https://img.shields.io/github/v/release/coccinella-labs/fmtcheck?logo=github&label=latest)](https://github.com/coccinella-labs/fmtcheck/releases)
 
 A GitHub Action that enforces consistent formatting across your CI
 pipeline.
@@ -16,13 +16,13 @@ the machine settles them in CI.
 ## Usage
 
 ```yaml
-- uses: libnudget/fmtcheck@main
+- uses: coccinella-labs/fmtcheck@main
 ```
 
 Checks the repository root. To check a subdirectory:
 
 ```yaml
-- uses: libnudget/fmtcheck@main
+- uses: coccinella-labs/fmtcheck@main
   with:
     path: src
 ```
