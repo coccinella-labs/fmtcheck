@@ -16,4 +16,4 @@ jobs:
       - run: go test ./...
       - run: test -z "$(gofmt -l .)"
       - name: Build image
-        run: docker build -t libnudget/fmtcheck:test .
+        run: docker build -t coccinella-labs/fmtcheck:test .
