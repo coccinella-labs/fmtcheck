@@ -1,6 +1,6 @@
 name: "fmtcheck"
 description: "Enforce consistent formatting across your CI pipeline."
-author: "libnudget"
+author: "coccinella-labs"
 branding:
   icon: "check"
   color: "green"
